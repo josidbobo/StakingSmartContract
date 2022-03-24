@@ -1,0 +1,19 @@
+{
+  "name": "StakingSmartContract",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": { 
+    "deploy:local": "hardhat run --network localhost scripts/deployMyContract.js",
+    "build": "hardhat compile",
+    "test:light": "hardhat test",
+    "test": "hardhat coverage",
+    "local-testnet": "hardhat node"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "hardhat": "^2.9.1"
+  }
+}
